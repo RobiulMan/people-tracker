@@ -1,2 +1,2 @@
-# people-tracker
-reandom people tracker app
+# People Tracker
+randomly people tracker app
