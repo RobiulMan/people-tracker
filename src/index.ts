@@ -1,11 +1,11 @@
+// const title = document.querySelector(".title");
 import { Company } from "./Company";
+import { CustomeMap } from "./CustomeMap";
 import { User } from "./User";
 
-const title = document.querySelector(".title");
-
 const user = new User();
-console.log(user);
-const company = new Company();
-console.log(company);
+const compnay = new Company();
+const customuser = new CustomeMap("#map");
 
-console.log("we are runing...");
+customuser.addMarker(user);
+customuser.addMarker(compnay);
